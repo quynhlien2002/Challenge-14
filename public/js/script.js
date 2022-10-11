@@ -22,3 +22,5 @@ const newBlog = async (event)=> {
 document    
     .querySelector('#create')
     .addEventListener('submit', newBlog);
+
+    

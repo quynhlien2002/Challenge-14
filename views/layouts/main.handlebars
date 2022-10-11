@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Tech Blog</title>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="flex-column min-100-vh">
+  <nav class="navbar navbar-expand-lg navbar-dark background-nav">
+        <div class="container-fluid background-nav">
+          <a class="navbar-brand head-title" href="#">The Tech Blog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link active" href="#dashboard">Dashboard</a>
+              <a class="nav-link active" href="#log-in">Log In</a>
+              <a class="nav-link active" href="#">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+  <main class="col-auto">
+    {{{body}}}
+  </main>
+
+  <footer class="flex-row justify-center">
+    &copy; The Tech Blog Folks
+  </footer>
+</body>
+
+</html>
+<script src="/js/logout.js"></script>

@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(216, 241, 234);
+}
+
+.background-nav{
+    background-color: rgb(53, 34, 34);
+}
+
+.head-title {
+    color: rgb(53, 34, 34);
+    background-color: rgb(216, 241, 234);
+    box-shadow: 5px 4px 3px rgb(135, 179, 166);
+    border-radius: 3px 3px 3px 3px;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+.head-title:hover{
+    color:rgb(24, 10, 10);
+}
+
+.navbar ul .active{
+    color:rgb(216, 241, 234);
+}
+
+.navbar-nav .active:hover{
+    box-shadow: 2px 2px 2px 2px rgb(135, 179, 166);
+    background-color: rgb(148, 231, 206);
+    color:rgb(24, 10, 10);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.welcome{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar-nav .active:active{
+    box-shadow: 2px 2px 2px 2px rgb(135, 179, 166);
+    background-color: rgb(148, 231, 206);
+    color:rgb(24, 10, 10);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.d-flex{
+    margin-top: 10%;
+}
+
+.head-bg{
+    background-color: rgb(248, 239, 239);
+    /* change so can fit */
+}
+
+
