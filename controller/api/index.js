@@ -5,4 +5,4 @@ const blogRoutes = require('./blogRoutes');
 router.use('/users', userRoutes);
 router.use('/blogs', blogRoutes);
 
-modult.exports = router;
+module.exports = router;
